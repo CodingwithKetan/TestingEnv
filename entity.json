@@ -52,7 +52,7 @@
       "description": "<p>test description</p>",
       "labels": "AWS",
       "isHidden": false,
-      "guid": "d9fa5e21-59d9-4e7e-a7be-3db1c1fb402e",
+      "guid": "d9fa5e21-59d9-4e7e-a7be-3db1c1fb402l",
       "riskId": 1,     
       "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7"
     },
