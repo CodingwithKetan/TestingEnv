@@ -1,8 +1,8 @@
 {
  "TestCases": [
     {
-      "Guid": "5463aac6-7c07-4c61-8a7b-40f41afcc69k",
-      "Name": "QAnewaddedtest1",
+      "Guid": "5463aac6-7c07-4c61-8a7b-40f41afcc690",
+      "Name": "QAtest1",
       "Description": "",
       "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
       "isHidden": false,
@@ -10,7 +10,7 @@
     },
     {
       "Guid": "f2ca5312-f20c-45f7-9f22-761b507aa65f",
-      "Name": "QATets2modified",
+      "Name": "QATets2",
       "Description": "",
       "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
       "isHidden": false,
@@ -21,7 +21,7 @@
     {
       "Guid": "08c07350-1c61-41c8-bbd8-2b0fbf03446f",
       "Name": "QASR1",
-      "RiskId": 2,
+      "RiskId": 1,
 	  "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
       "Description": "",
 	  "Labels": "",
@@ -50,7 +50,7 @@
     {
       "name": "test threat",
       "description": "<p>test description</p>",
-      "labels": "AWSadded",
+      "labels": "AWS",
       "isHidden": false,
       "guid": "d9fa5e21-59d9-4e7e-a7be-3db1c1fb402e",
       "riskId": 1,     
@@ -66,7 +66,7 @@
       "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7"
     }
 ],
-	" ": [
+	"Components": [
 	{
 	  "libraryGuid": "b15b0d3b-dd24-4faf-847c-b186284e96c7",
       "name": "component QA",
@@ -82,7 +82,7 @@
       "name": "component QA1",
       "description": "",
       "labels": "",
-      "imagePath": "/ComponentImage/abcnwely.png",
+      "imagePath": "/ComponentImage/abc.png",
       "componentTypeId": "3",
       "componentTypeName": "Component",
       "guid": "2c5d0238-8f41-47e0-154h-66297be4f85b"
