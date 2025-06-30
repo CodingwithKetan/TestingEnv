@@ -1,0 +1,91 @@
+{
+ "TestCases": [
+    {
+      "Guid": "5463aac6-7c07-4c61-8a7b-40f41afcc69k",
+      "Name": "QAnewaddedtest1",
+      "Description": "",
+      "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
+      "isHidden": false,
+      "Labels": ""
+    },
+    {
+      "Guid": "f2ca5312-f20c-45f7-9f22-761b507aa65f",
+      "Name": "QATets2modified",
+      "Description": "",
+      "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
+      "isHidden": false,
+      "Labels": ""
+    }
+],
+  "SecurityRequirements": [
+    {
+      "Guid": "08c07350-1c61-41c8-bbd8-2b0fbf03446f",
+      "Name": "QASR1",
+      "RiskId": 2,
+	  "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
+      "Description": "",
+	  "Labels": "",
+      "isHidden": false
+    },
+    {
+      "Guid": "a7966801-6ffc-4715-b25f-884663f40015",
+      "Name": "QASR2",
+      "RiskId": 1,
+	  "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
+      "Description": "",
+	  "Labels": "",
+      "isHidden": false
+    },
+    {
+      "Guid": "26f2c00b-c543-4fed-85d1-e3961255554ec",
+      "Name": "Azure private endpoint",
+      "RiskId": 1,
+	  "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
+      "Description": "<p>Azure Private Link enables you to access Azure PaaS Services (for example, Azure Storage and SQL Database) and Azure hosted customer-owned/partner services over a&#160;<a href=\"https://learn.microsoft.com/en-us/azure/private-link/private-endpoint-overview\">private endpoint</a>&#160;in your virtual network.</p><p>Traffic between your virtual network and the service travels the Microsoft backbone network. Exposing your service to the public internet is no longer necessary. You can create your own&#160;<a href=\"https://learn.microsoft.com/en-us/azure/private-link/private-link-service-overview\">private link service</a>&#160;in your virtual network and deliver it to your customers. Setup and consumption using Azure Private Link is consistent across Azure PaaS, customer-owned, and shared partner services.</p><p><br></p><p><strong>Steps to Implement</strong></p><ol><li>In the search box at the top of the portal, enter&#160;<strong>Private endpoint</strong>. Select&#160;<strong>Private endpoints</strong>.</li><li>Select&#160;<strong>+ Create</strong>&#160;in&#160;<strong>Private endpoints</strong>.</li><li>In the&#160;Basics&#160;tab of&#160;Create a private endpoint, select your desired subscription, resource group, instance name, network interface name, and region</li><li>Select&#160;<strong>Next: Resource</strong>.</li><li>In the&#160;Resource&#160;pane, select your desired resource either by finding it in your directory or via its resource ID.</li><li>Select&#160;<strong>Next: Virtual Network</strong>.</li><li>In&#160;<strong>Virtual Network</strong>, enter or select your desired virtual network, subnet, and network policy.</li><li>Select&#160;<strong>Next: DNS</strong>.</li><li>Leave the defaults in&#160;DNS unless you need to change them. Select&#160;<strong>Next: Tags</strong>, then&#160;<strong>Next: Review + create</strong>.</li><li>Select&#160;<strong>Create</strong>.</li></ol><p><br></p><p><strong>Reference:</strong></p><p>Quickstart: Create a private endpoint by using the Azure portal</p>",
+      "Labels": "",
+	  "isHidden": false
+    }    
+  ],
+   "Threats": [
+    {
+      "name": "test threat",
+      "description": "<p>test description</p>",
+      "labels": "AWSadded",
+      "isHidden": false,
+      "guid": "d9fa5e21-59d9-4e7e-a7be-3db1c1fb402e",
+      "riskId": 1,     
+      "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7"
+    },
+	{
+      "name": "test threat1",
+      "description": "<p>test description</p>",
+      "labels": "AWS",
+      "isHidden": false,
+      "guid": "d9fa5e21-59d9-4e7e-a7be-3db1c1fb402e",
+      "riskId": 1,     
+      "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7"
+    }
+],
+	" ": [
+	{
+	  "libraryGuid": "b15b0d3b-dd24-4faf-847c-b186284e96c7",
+      "name": "component QA",
+      "description": "",
+      "labels": "",
+      "imagePath": "/ComponentImage/abc.png",
+      "componentTypeId": "3",
+      "componentTypeName": "Component",
+      "guid": "2c5d0238-8f41-47e0-9d54-66297be4f85b"
+	},
+	{
+	  "libraryGuid": "b15b0d3b-dd24-4faf-847c-b186284e96c7",
+      "name": "component QA1",
+      "description": "",
+      "labels": "",
+      "imagePath": "/ComponentImage/abcnwely.png",
+      "componentTypeId": "3",
+      "componentTypeName": "Component",
+      "guid": "2c5d0238-8f41-47e0-154h-66297be4f85b"
+	}
+	]
+  }
