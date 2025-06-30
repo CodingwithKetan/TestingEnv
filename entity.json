@@ -1,7 +1,7 @@
 {
  "TestCases": [
     {
-      "Guid": "5463aac6-7c07-4c61-8a7b-40f41afcc690",
+      "Guid": "5463aac6-7c07-4c61-8a7b-40f41afcc691",
       "Name": "QAtest1",
       "Description": "",
       "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
@@ -21,7 +21,7 @@
     {
       "Guid": "08c07350-1c61-41c8-bbd8-2b0fbf03446f",
       "Name": "QASR1",
-      "RiskId": 1,
+      "RiskId": 2,
 	  "libraryGuid": "b15b0d3b-dd43-4faf-847c-b186284e96c7",
       "Description": "",
 	  "Labels": "",
@@ -49,7 +49,7 @@
    "Threats": [
     {
       "name": "test threat",
-      "description": "<p>test description</p>",
+      "description": "<p>test description changed</p>",
       "labels": "AWS",
       "isHidden": false,
       "guid": "d9fa5e21-59d9-4e7e-a7be-3db1c1fb402l",
